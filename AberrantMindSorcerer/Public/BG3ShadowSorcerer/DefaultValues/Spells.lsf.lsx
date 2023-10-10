@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="600" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_DancingLights;Target_MinorIllusion;Shout_SwordBurst;Target_TrueStrike;Projectile_RayOfSickness;Shout_DisguiseSelf" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="1" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="4c8bf3aa-b712-44aa-bd6a-79e121e9052e" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Darkness" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="5" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="08077cdf-28b8-40c9-9d3b-10be8c693bd4" />
+					<attribute id="UUID" type="guid" value="63340125-b720-4f0b-9b2f-b73e1195cfd0" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Darkvision" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="6" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="08077cdf-28b8-40c9-9d3b-10be8c693bd4" />
+					<attribute id="UUID" type="guid" value="fb78a395-f671-45a7-9dbe-7e30f7250e59" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Invisibility" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="5" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="80466269-2325-4c9f-b7ca-42a26603b834" />
+					<attribute id="UUID" type="guid" value="9999bcaf-ab90-4a26-96d3-cab7409b1b1e" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Web" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="6" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="80466269-2325-4c9f-b7ca-42a26603b834" />
+					<attribute id="UUID" type="guid" value="d156d95b-7597-47ee-9743-01d6f56d799b" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Target_CrownOfMadness;Shout_DetectMagic;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="1" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="0c70dcba-6667-4efe-8e0c-4155ecfc0b1d" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_CharmPerson;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Projectile_ChromaticOrb;Zone_ColorSpray;Target_CrownOfMadness;Shout_DetectMagic;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="2" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="a3ff3116-c8df-4553-a72d-761a9341bb02" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Invisibility;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DetectMagic;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="3" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="fcfb4eb3-6331-45a6-8029-f0bd36a019f0" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_MinorIllusion;Shout_MirrorImage;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Zone_ColorSpray;Shout_DetectMagic;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="4" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="111b6549-15ef-4288-a913-55d09f2c97bf" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="5" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="31af05b2-d0e6-41eb-b3d4-a2fe1b8f898d" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="6" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="28938ce9-e741-43d6-9a93-29c82f313bb7" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="7" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="fc2a688f-79c5-42dd-b2d9-743f5f556694" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="8" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="0aaca15a-403e-4a19-a31f-14afb8fa994a" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_FarStep;Target_GreaterInvisibility;Target_HoldMonster;Target_SkillEmpowerment;Projectile_SynapticStatic;Target_Telekinesis;Target_WallOfStone;Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="9" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="87a1069d-cad7-4451-a252-7c0487817d34" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_FarStep;Target_GreaterInvisibility;Target_HoldMonster;Target_SkillEmpowerment;Projectile_SynapticStatic;Target_Telekinesis;Target_WallOfStone;Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt;Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade;Target_ChillTouch;Target_ControlFlames;Target_CreateBonfire;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_Gust;Target_Light;Target_LightningLure;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Target_MoldEarth;Projectile_PoisonSpray;Target_Prestidigitation;Projectile_RayOfFrost;Target_ShapeWater;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TrueStrike" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="10" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="0fa6158c-ef04-45b9-b26b-20610dcb9b2b" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_CircleOfDeath;Target_Disintegrate;Shout_Eyebite;Target_FleshToStone;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_FarStep;Target_GreaterInvisibility;Target_HoldMonster;Target_SkillEmpowerment;Projectile_SynapticStatic;Target_Telekinesis;Target_WallOfStone;Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="11" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="ae597a74-4023-40ac-be8e-6e641f7dccef" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Shout_CrownOfStars;Target_CircleOfDeath;Target_Disintegrate;Shout_Eyebite;Target_FleshToStone;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_FarStep;Target_GreaterInvisibility;Target_HoldMonster;Target_SkillEmpowerment;Projectile_SynapticStatic;Target_Telekinesis;Target_WallOfStone;Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="13" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="738c8f66-e013-4bba-9582-a437cf881ad1" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_DominateMonster;Target_PowerWordStun;Shout_CrownOfStars;Target_CircleOfDeath;Target_Disintegrate;Shout_Eyebite;Target_FleshToStone;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_FarStep;Target_GreaterInvisibility;Target_HoldMonster;Target_SkillEmpowerment;Projectile_SynapticStatic;Target_Telekinesis;Target_WallOfStone;Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="15" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="833c6fe4-50dc-4559-9b12-ec5eba993ca0" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_PowerWordKill;Shout_TimeStop;Target_DominateMonster;Target_PowerWordStun;Shout_CrownOfStars;Target_CircleOfDeath;Target_Disintegrate;Shout_Eyebite;Target_FleshToStone;Target_Cloudkill;Zone_ConeOfCold;Target_DominatePerson;Target_FarStep;Target_GreaterInvisibility;Target_HoldMonster;Target_SkillEmpowerment;Projectile_SynapticStatic;Target_Telekinesis;Target_WallOfStone;Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Target_DominateBeast;Shout_FireShield;Target_IceStorm;Target_Polymorph;Projectile_RaulothimsPsychicLance;Target_Stoneskin;Shout_AshardalonsStride;Target_BestowCurse;Shout_Blink;Target_Catnap;Target_Daylight;Projectile_Electrocute;Target_EnemiesAbound;Target_EruptingEarth;Zone_Fear;Projectile_Fireball;Target_FireCyclone;Zone_FlashFreeze;Target_Fly;Target_Haste;Target_HypnoticPattern;Target_IntellectFortress;Target_LifeTransference;Zone_LightningBolt;Shout_MinuteMeteors;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Teleportation_ThunderStep;Shout_VampiricTouch;Shout_WaterWalk;Zone_VortexBlast;Zone_AganazzarsScorcher;Shout_AlterSelf;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_ColdSnap;Projectile_Crackle;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Shout_DetectThoughts;Target_DragonsBreath;Target_DustDevil;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Target_Fling;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Shout_KineticJaunt;Target_Knock;Target_Levitate;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_MindSpike;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ShadowBlade;Target_SnillocsSnowballSwarm;Target_Suggestion;Target_TashasMindWhip;Target_VortexWarp;Shout_WardingWind;Target_Web;Shout_AbsorbElements;Zone_ArcticBreath;Zone_BurningHands;Target_Catapult;Target_CauseFear;Target_ChaosBolt;Target_CharmPerson;Projectile_ChromaticOrb;Shout_DetectMagic;Zone_ColorSpray;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_InflictWounds;Target_Jump;Shout_LightningTendril;Target_MageArmor;Projectile_MagicMissile;Projectile_RayOfSickness;Shout_Shield;Target_Sleep;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thunderwave;Projectile_WitchBolt" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="17" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="abf40577-3e99-4fe7-8346-213b99421fcd" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_LightningLure;Shout_SwordBurst;Target_Prestidigitation;Target_MageHand;Projectile_MagicMissile;Shout_Shield" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="1" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="94a710b8-2512-498c-91f0-b2b6f9ae68af" />
+					<attribute id="UUID" type="guid" value="6cd30ed2-703d-427b-97b4-1c633b12ac1f" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_MageArmor" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="2" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="94a710b8-2512-498c-91f0-b2b6f9ae68af" />
+					<attribute id="UUID" type="guid" value="10107eb5-e0f9-49f8-95bd-14d7ada9061b" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Shout_Blur" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="3" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="94a710b8-2512-498c-91f0-b2b6f9ae68af" />
+					<attribute id="UUID" type="guid" value="7a96f67b-7b2a-49a4-83c4-b4b0f8358681" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_MinorIllusion;Shout_DetectThoughts" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="4" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="94a710b8-2512-498c-91f0-b2b6f9ae68af" />
+					<attribute id="UUID" type="guid" value="e05b720a-337b-436a-badf-b0d3faba4a22" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Shout_MirrorImage" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="5" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="94a710b8-2512-498c-91f0-b2b6f9ae68af" />
+					<attribute id="UUID" type="guid" value="8fd0c019-045c-4786-9fe8-eac9b3d5c4b5" />
+				</node>
+				<node id="DefaultValue">
+					<attribute id="Add" type="LSString" value="Target_Invisibility" />
+					<attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Level" type="int32" value="2" />
+					<attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Replace" type="LSString" value="" />
+					<attribute id="SelectorId" type="LSString" value="" />
+					<attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="TableUUID" type="guid" value="94a710b8-2512-498c-91f0-b2b6f9ae68af" />
+					<attribute id="UUID" type="guid" value="fccb7949-92e1-4a39-8098-b7608eba0189" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

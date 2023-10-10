@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="ItemWallTemplates">
+					<attribute id="HighLeft" type="LSString" value="VFX_Static_Wall_Spell_Fire_B_HighLeft_A_bbe22243-6a91-497f-9960-5b909c4cafe2" />
+					<attribute id="HighMiddle" type="LSString" value="VFX_Static_Wall_Spell_Fire_B_HighMiddle_A_2c87b39b-bcd9-477f-ba17-81c4f129a658" />
+					<attribute id="HighRight" type="LSString" value="VFX_Static_Wall_Spell_Fire_B_HighRight_A_fd9a3f71-d550-48d1-8bcf-fda018f0d4c8" />
+					<attribute id="LowLeft" type="LSString" value="VFX_Static_Wall_Spell_Fire_B_LowLeft_A_75b72a6b-2424-43c2-b297-e143bfe008fe" />
+					<attribute id="LowMiddle" type="LSString" value="VFX_Static_Wall_Spell_Fire_B_LowMiddle_A_b6027e05-f141-441c-a944-1869bc8d7e7e" />
+					<attribute id="LowRight" type="LSString" value="VFX_Static_Wall_Spell_Fire_B_LowRight_A_55979af9-4ce7-47cd-9337-bdae6b9d989c" />
+					<attribute id="Name" type="LSString" value="WallOfDarkness" />
+					<attribute id="UUID" type="guid" value="2bfc950e-0b1d-43ef-a16e-41425e0d44bb" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

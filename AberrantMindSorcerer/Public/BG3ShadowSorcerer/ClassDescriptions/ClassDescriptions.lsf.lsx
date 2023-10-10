@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="600" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="ClassDescription">
+					<attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer_ShadowSorcery" />
+					<attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+					<attribute id="Description" type="TranslatedString" handle="5878cb02-59dd-4667-9323-27eaf6382c66" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="69940b10-50c0-4c3e-829d-9e255dcf17f0" version="1" />
+					<attribute id="LearningStrategy" type="uint8" value="1" />
+					<attribute id="Name" type="FixedString" value="ShadowMagic" />
+					<attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
+					<attribute id="PrimaryAbility" type="uint8" value="6" />
+					<attribute id="ShortName" type="TranslatedString" handle="69940b10-50c0-4c3e-829d-9e255dcf17f0" version="1" />
+					<attribute id="ProgressionTableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="SoundClassType" type="FixedString" value="Sorcerer" />
+					<attribute id="SpellCastingAbility" type="uint8" value="6" />
+					<attribute id="SpellList" type="guid" value="4430351f-a7a5-4362-92bb-fd6e75a2fae3" />
+					<attribute id="UUID" type="guid" value="d007a7be-60c6-4606-87db-66eb9e247050" />
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6a323e9c-d398-419c-adfd-24b5337c1c9e" />
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="b47643e0-583c-4808-08b1-d3f605b6a9b0" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

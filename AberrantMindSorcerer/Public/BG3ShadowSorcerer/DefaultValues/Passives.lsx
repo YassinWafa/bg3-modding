@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="600"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Good"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="32b1e159-8ff2-4404-9ba7-782b9aca1514"/>
+                    <attribute id="UUID" type="guid" value="1e80b589-208a-4f9e-a3a0-57beef84d7ee"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Metamagic_Heightened"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="10"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+                    <attribute id="UUID" type="guid" value="f38639e1-6f97-4888-95b2-695ad267e92d"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Metamagic_Extended"/>
+                    <attribute id="ClassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Level" type="int32" value="17"/>
+                    <attribute id="OriginUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="SubclassUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+                    <attribute id="UUID" type="guid" value="92ab15b9-1ee0-414d-ac8b-b3c685069fe5"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

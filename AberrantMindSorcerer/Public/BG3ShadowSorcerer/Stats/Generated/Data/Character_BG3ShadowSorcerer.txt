@@ -1,0 +1,26 @@
+new entry "baa_Hound_Of_Ill_Omen"
+type "Character"
+using "Shadow_Mastiff_Alpha"
+data "Strength" "15"
+data "Dexterity" "18"
+data "Constitution" "12"
+data "Intelligence" "10"
+data "Wisdom" "13"
+data "Charisma" "11"
+data "Armor" "13"
+data "Vitality" "46"
+data "Weight" "60000"
+data "StepsType" "Clawed"
+data "SpellCastingAbility" "Dexterity"
+data "UnarmedAttackAbility" "Dexterity"
+data "UnarmedRangedAttackAbility" "Dexterity"
+data "Passives" "DarkVision;AttackOfOpportunity_HoundOfIllOmen;DarknessRules;PackTactics"
+data "Boosts" "UnlockSpell(Shout_Dismiss_Self); Tag(SUMMON)"
+
+
+new entry "baa_Shadowspawn"
+type "Character"
+using "Shadow"
+data "Boosts" "UnlockSpell(Shout_Dismiss_Self); Tag(SUMMON)"
+
+

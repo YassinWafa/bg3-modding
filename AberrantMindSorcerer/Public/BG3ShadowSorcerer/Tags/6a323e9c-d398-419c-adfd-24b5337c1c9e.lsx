@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="405" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="f597a414-aef0-45cf-a829-b04b07ff0492" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="7422f151-b706-48fc-8d91-1ae6605762df" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="SORCERER_SHADOW" />
+			<attribute id="UUID" type="guid" value="6a323e9c-d398-419c-adfd-24b5337c1c9e" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

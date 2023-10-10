@@ -1,0 +1,5 @@
+
+new entry "ARM_Robe_Body_Sorcerer_ShadowSorcery"
+type "Armor"
+using "ARM_Robe_Body_Sorcerer"
+data "RootTemplate" "61f3a6e3-e552-40bb-83a4-1a9e2117694b"

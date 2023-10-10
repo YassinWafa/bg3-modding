@@ -1,0 +1,294 @@
+new entry "EYESOFTHEDARK_DARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "baa_DarknessSpell"
+data "StackId" "EYESOFTHEDARK_DARKNESS"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "BAA_SHADOW_ARMOR_1"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "1b1feba9-9584-44f1-988f-ec0bf4128f17;1"
+data "Description" "aea4c63c-7a02-4529-a21f-e4a7c0d8e228;1"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "Boosts" "AC(1);Advantage(Skill,Perception);"
+data "StackId" "BAA_SHADOW_ARMOR"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "BAA_SHADOW_ARMOR_2"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "7be6df3d-f7eb-486a-9d2e-8bc53b3c8f68;1"
+data "Description" "3905bc90-f5b2-45f9-bb7c-3ec9a7bb0e39;1"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "Boosts" "AC(2);Advantage(Skill,Perception);Advantage(Skill,Stealth)"
+data "StackId" "BAA_SHADOW_ARMOR"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "BAA_BLINDED_DARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BLINDED"
+data "StatusPropertyFlags" "Blind"
+
+
+
+new entry "BAA_DARKNESS_ENCHANTMENT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "BAA_DARKNESS"
+data "Boosts" "WeaponProperty(Unstowable);Attribute(InventoryBound)"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+
+
+new entry "BAA_DARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "BAA_DARKNESS"
+data "AuraRadius" "5"
+data "AuraStatuses" "TARGET:IF(Character() and not HasStatus('BAA_DARKNESS_SIGHT') and not HasPassive('DevilsSight')):ApplyStatus(BAA_BLINDED_DARKNESS,100,-1)"
+data "Boosts" "GameplayObscurity(5)"
+data "StatusEffect" "caeddf77-f14b-4214-97e9-b3f63e0f56d0"
+data "OnRemoveFunctors" "RemoveStatus(SELF,BAA_DARKNESS_VISUAL);RemoveStatus(SELF,BAA_DARKNESS_EFFECT)"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "BAA_DARKNESS_EQUIPPED"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BAA_DARKNESS"
+data "Boosts" "GameplayObscurity(5);IF(Item(context.Source)):WeaponProperty(Unstowable);Attribute(InventoryBound)"
+data "OnApplyFunctors" "ApplyStatus(SELF,BAA_DARKNESS_EFFECT,100,-1)"
+data "StackId" "DARKNESS_EQUIPPED"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "BAA_DARKNESS_VISUAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "BAA_DARKNESS"
+data "Boosts" "GameplayObscurity(5)"
+data "StatusEffect" "caeddf77-f14b-4214-97e9-b3f63e0f56d0"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "BAA_DARKNESS_EFFECT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "BAA_DARKNESS"
+data "Boosts" "GameplayObscurity(5)"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "SCL_AREA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "he1079a26g9d38g4c41gbf0ag7aa52820a293;1"
+data "Description" "h5c84baa5g42c0g4d33gae33g790708647ca7;1"
+data "StackId" "SCL_AREA"
+data "Boosts" "IF(not Tagged('DOWNED_DISABLED') and HasPassive('DeathSavingThrows')):DownedStatus(SCL_DOWNED,1);BlockTravel()"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "OnApplyFunctors" "IF(not (HasPassive('ShadowSorcerer_ImmuneShadowCurse'))):ApplyStatus(SCL_SHADOW_CURSE,100,1)"
+data "OnRemoveFunctors" "IF(not Tagged('DOWNED_DISABLED') and not HasPassive('DeathSavingThrows') and RemoveCause(StatusRemoveCause.Death) and not( HasPassive('ShadowSorcerer_ImmuneShadowCurse'))):ApplyStatus(SCL_SHADOW_CURSE_RISING,100,1)"
+data "StatusGroups" "SG_Cursed"
+
+
+new entry "SCL_SHADOW_CURSE_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SCL_SHADOW_CURSE"
+data "SoundStart" "Misc_Status_ShadowCurse1_Start,HEAD"
+data "SoundStop" "Misc_Status_ShadowCurse1_End,HEAD"
+data "StackPriority" "2"
+data "TickFunctors" "IF(not (HasPassive('ShadowSorcerer_ResistShadowCurse'))):ApplyStatus(SCL_SHADOW_CURSE_2,100,1)"
+data "OnApplyFunctors" "DealDamage(2d4,Necrotic,Magical)"
+data "ApplyEffect" "1a75b65d-bdfd-4531-9b0b-07dbebc9bc58"
+data "StatusEffect" "cee5da66-470d-4266-9c2f-33beb6ff3b3f"
+
+new entry "BAA_DARKNESS_SIGHT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "StatusImmunity(BAA_BLINDED_DARKNESS);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
+data "StackId" "BAA_DARKNESS_SIGHT"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "STRENGTH_OF_THE_GRAVE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "STRENGTH_OF_THE_GRAVE"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "STRENGTH_OF_THE_GRAVE_BLOCK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "STRENGTH_OF_THE_GRAVE"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "HOUND_OF_ILL_OMEN_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+new entry "HOUNDOFILLOMEN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "UnlockSpell(baa_Target_HoundOfIllOmen_Precursor)"
+data "StackId" "HOUNDOFILLOMEN"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "HOUNDOFILLOMEN_SPELL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "UnlockSpell(baa_Target_HoundOfIllOmen)"
+data "RemoveConditions" "SpellId('baa_Target_HoundOfIllOmen')"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "HOUND_OF_ILL_OMEN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "OnApplyFunctors" "ApplyStatus(SELF,HOUND_OF_ILL_OMEN_CASTER,100,50);ApplyStatus(HOUND_OF_ILL_OMEN_AURA,100,50);ApplyStatus(TEMPHP3,100,50);RemoveStatus(SELF,HOUNDOFILLOMEN_SPELL)"
+data "AuraRadius" "3"
+data "AuraStatuses" "IF(HasStatus('HOUND_OF_ILL_OMEN_TARGET')):ApplyStatus(HOUND_OF_ILL_OMEN_DISADVANTAGE,100,1)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "HOUND_OF_ILL_OMEN_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HOUND_OF_ILL_OMEN"
+data "OnApplyFunctors" "ApplyStatus(SELF,HOUND_OF_ILL_OMEN_CASTER,100,50);ApplyStatus(HOUND_OF_ILL_OMEN_AURA,100,50);ApplyStatus(TEMPHP4,100,50);RemoveStatus(SELF,HOUNDOFILLOMEN_SPELL)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "HOUND_OF_ILL_OMEN_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HOUND_OF_ILL_OMEN"
+data "OnApplyFunctors" "ApplyStatus(SELF,HOUND_OF_ILL_OMEN_CASTER,100,50);ApplyStatus(HOUND_OF_ILL_OMEN_AURA,100,50);ApplyStatus(TEMPHP5,100,50);RemoveStatus(SELF,HOUNDOFILLOMEN_SPELL)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "HOUND_OF_ILL_OMEN_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "TEMPHP3"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "TemporaryHP(3)"
+data "RemoveConditions" "not HasTemporaryHP()"
+data "RemoveEvents" "OnDamage"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "TEMPHP4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TEMPHP3"
+data "Boosts" "TemporaryHP(4)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "TEMPHP5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TEMPHP3"
+data "Boosts" "TemporaryHP(5)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "HOUND_OF_ILL_OMEN_DISADVANTAGE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "7842ffea-161b-4147-ba0e-27515fca0fcd;1"
+data "Description" "70da350d-34fd-43a2-b473-4c96d8b634cc;1"
+data "Icon" "Action_Ranger_RangersCompanion_Wolf"
+data "DescriptionParams" "Distance(2)"
+data "Boosts" "IF(HasStatus('HOUND_OF_ILL_OMEN_CASTER',context.Source)):Disadvantage(AllSavingThrows)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+new entry "HOUND_OF_ILL_OMEN_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "AuraRadius" "99"
+data "AuraStatuses" "IF(HasStatus('HOUND_OF_ILL_OMEN_TARGET',context.Target)):ApplyStatus(HOUND_OF_ILL_OMEN_TRACKING,100,50)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "DealDamage(100,Piercing)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "HOUND_OF_ILL_OMEN_TRACKING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "INVISIBILITY;OBSCURED"
+data "StackPriority" "10"
+data "Passives" "HoundOfIllOmen_Tracking"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+
+
+
+
+new entry "BAA_UMBRAL_FORM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "5fef071c-3597-46c1-a9a5-da5eab6c0d85;1"
+data "Description" "ea6d3189-d698-4504-8e1e-5bbbc9e661d9;1"
+data "Icon" "Action_Cleric_ChannelDivinity_CloakOfShadows"
+data "FormatColor" "Purple"
+data "StackType" "Ignore"
+data "Boosts" "ActionResource(Movement,9,0);Advantage(AllSavingThrows);AC(2);UnlockSpell(baa_Shout_UmbralForm_Dismiss);StatusImmunity(BAA_BLINDED_DARKNESS);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);StatusImmunity(DIFFICULT_TERRAIN);Resistance(Slashing,Resistant);Resistance(Piercing,Resistant);Resistance(Bludgeoning,Resistant);Resistance(Poison,Resistant);Resistance(Psychic,Resistant);Resistance(Acid,Resistant);Resistance(Fire,Resistant);Resistance(Cold,Resistant);Resistance(Thunder,Resistant);Resistance(Lightning,Resistant);Resistance(Necrotic,Resistant);"
+data "ApplyEffect" "a6ebf76d-ef9d-4473-a601-a978ae3cda6d"
+data "StatusEffect" "daabac5d-1a39-42ad-afdd-3d562c3c42c1"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+
+new entry "WALLOFDARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "65d2d684-0c43-4238-b7d8-ddbdc1e74f10;1"
+data "Description" "30f0d26a-eca8-4422-8bb7-e7d7e709c4de;1"
+data "Icon" "baa_Spell_Evocation_WallOfDarkness"
+data "StackId" "WALLOFDARKNESS"
+data "StackPriority" "1"
+data "AuraRadius" "2"
+data "Boosts" "GameplayObscurity(5)"
+data "AuraStatuses" "TARGET:IF(Character() and not HasStatus('BAA_DARKNESS_SIGHT') and not HasPassive('DevilsSight')):ApplyStatus(BAA_BLINDED_DARKNESS,100,-1)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;"
+data "StatusGroups" "SG_RemoveOnRespec"

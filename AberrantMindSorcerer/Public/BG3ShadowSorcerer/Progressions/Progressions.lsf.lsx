@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="330" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="Progression">
+					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(Daggers);Proficiency(Quarterstaffs);Proficiency(LightCrossbows)" />
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="Sorcerer" />
+					<attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1" />
+					<attribute id="ProgressionType" type="uint8" value="0" />
+					<attribute id="Selectors" type="LSString" value="SelectSkills(8743f14b-64de-4858-b056-50902a00df1a,2);SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,4,0,SorcererCantrip,,,AlwaysPrepared);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,0,SorcererSpell);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+					<attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+					<attribute id="UUID" type="guid" value="42af9bda-9ac0-4564-920b-f9ca1588d6ee" />
+					<children>
+						<node id="SubClasses">
+							<children>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
+								</node>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20" />
+								</node>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3" />
+								</node>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="d007a7be-60c6-4606-87db-66eb9e247050" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Progression">
+					<attribute id="IsMulticlass" type="bool" value="True" />
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="Sorcerer" />
+					<attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1" />
+					<attribute id="ProgressionType" type="uint8" value="0" />
+					<attribute id="Selectors" type="LSString" value="SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,4,0,SorcererCantrip,,,AlwaysPrepared);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,0,SorcererSpell)" />
+					<attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+					<attribute id="UUID" type="guid" value="e115c732-80b1-4ae1-bf04-cee44660d64f" />
+					<children>
+						<node id="SubClasses">
+							<children>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
+								</node>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20" />
+								</node>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3" />
+								</node>
+								<node id="SubClass">
+									<attribute id="Object" type="guid" value="d007a7be-60c6-4606-87db-66eb9e247050" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="EyesOfTheDark;StrengthOfTheGrave" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(5d2e076f-da2f-40ef-989d-a59a4b4ce844)" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="2a382291-7fed-44ba-9002-ccd894b687d8" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="3" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="ShadowSorcerer_ResistShadowCurse;EyesOfTheDark_DarknessSpell_Desc;EyesOfTheDark_DarknessSpell;EyesOfTheDark_DarknessSpell_Spell" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="cf822754-c993-4816-bfbf-fd9340c4fe8d" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="606e51db-d718-4b28-8c5e-dacb124fac5c" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="5" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="738b0430-5f94-42c7-b7e9-9fce63144581" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="6" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="HoundOfIllOmen;ShadowSorcerer_ImmuneShadowCurse" />
+					<attribute id="PassivesRemoved" type="LSString" value="ShadowSorcerer_ResistShadowCurse" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(4430351f-a7a5-4362-92bb-fd6e75a2fae3)" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="8f9cc825-a1c6-4565-906e-bcc57f3d1d9c" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="7" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="685699af-7449-4663-80aa-823ef112f8d4" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="8" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="886b7906-cbe1-4b54-83b2-d13baee41e92" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="9" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(72dc52b6-f844-4deb-888f-77e61fdb41c3)" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="bdc63686-fde5-4ca1-9b01-b9f233cd720c" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="10" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="fa132c33-caab-4387-8d6c-14f01cd8abc4" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="11" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="AddSpells(797a29c3-b4c4-42fb-a371-8fa500160445)" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="6936365a-cd70-4eb0-a915-93bd21c2b2db" />
+				</node>
+				<node id="Progression">
+					<attribute id="AllowImprovement" type="bool" value="False" />
+					<attribute id="Boosts" type="LSString" value="" />
+					<attribute id="Level" type="uint8" value="12" />
+					<attribute id="Name" type="LSString" value="ShadowMagic" />
+					<attribute id="PassivesAdded" type="LSString" value="" />
+					<attribute id="PassivesRemoved" type="LSString" value="" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="Selectors" type="LSString" value="" />
+					<attribute id="TableUUID" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="UUID" type="guid" value="0e8288cf-4a63-48bf-a374-5bf6987672c1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

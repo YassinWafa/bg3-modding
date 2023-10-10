@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="600"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Charisma;Constitution"/>
+                    <attribute id="Level" type="int32" value="8"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+                    <attribute id="UUID" type="guid" value="86221f59-476f-4069-a62d-28ec91709a22"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Charisma;Constitution"/>
+                    <attribute id="Level" type="int32" value="12"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+                    <attribute id="UUID" type="guid" value="ac9e0a9c-ee99-4193-959c-f95fdb45c20b"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Charisma;Constitution"/>
+                    <attribute id="Level" type="int32" value="16"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+                    <attribute id="UUID" type="guid" value="689ac8cc-7583-4e12-940b-490b18196ba4"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Charisma;Constitution"/>
+                    <attribute id="Level" type="int32" value="19"/>
+                    <attribute id="SelectorId" type="LSString" value="FeatASI"/>
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+                    <attribute id="UUID" type="guid" value="9c418996-e200-41b9-9cdf-f2eaf525901b"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

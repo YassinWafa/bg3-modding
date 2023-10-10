@@ -1,0 +1,21 @@
+
+
+new entry "baa_SHADOW_BLADE"
+type "StatusData"
+data "StatusType" "EFFECT"
+data "DisplayName" "h38597068g4807g4de5g8f4bg2f09324e7e59;2"
+data "Description" "0fae65c6-fc18-4caf-880c-18687263a001;1"
+data "Icon" "PassiveFeature_Generic_Darkness"
+data "SoundLoop" "MAG_Status_ShadowBlade"
+data "SoundStop" "MAG_Status_ShadowBlade_Stop"
+data "Boosts" "Attribute(InventoryBound);BlockAbilityModifierDamageBonus();WeaponAttackTypeOverride(MeleeSpellAttack)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusEffect" "4c40f7ab-8513-49da-ae71-b7faae9079ca"
+
+
+new entry "BAA_SHADOW_FORM_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+data "DisplayName" "h9abed99agc9c1g464cg8076gbab5c9550872;2"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusEffect" "daabac5d-1a39-42ad-afdd-3d562c3c42c1"

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="b938ea96-ffed-4adf-aeac-b0c189413da6" version="1">Hound of Ill Omen</content>
+	<content contentuid="89f493eb-779e-44ef-9320-c2bea3905f81" version="1">You gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature within 36m of you.</content>
+	<content contentuid="c6ef3933-d355-4dda-b6f6-a89de2d8ab8f" version="1">Call forth a hound of ill omen to target one creature with its attacks. Additionally, while the hound is within [1] of the target, they have Disadvantage on Saving Throws spells you cast.</content>
+	<content contentuid="eec5ed3b-94e9-4378-ac8f-cc985ba40660" version="1">The hound appears with temporary hit points equal to your level. At the start of its turn, the hound discovers the location of the target, even if it is hidden.</content>
+	<content contentuid="1430e7db-bac9-41e3-8ea2-e8cdb32eca2a" version="1">Target a creature within range to become the target of the Hound of Ill Omen when summoned. The hound can only attack its target. This ability will recharge after 2 turns.</content>
+	<content contentuid="a58bf563-e9ea-41c6-bb8a-299483a093bb" version="1">You have darkvision with a range of 36m. When you reach 3rd level, you learn the Darkness spell. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell.</content>
+	<content contentuid="977c96d9-c5f6-4b78-a101-381649ace068" version="1">Eyes of the Dark</content>
+	<content contentuid="adc4881e-deaa-4453-a86b-50978637b416" version="1">Your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit. If you successful revive, you can't use this feature again until you finish a long rest.</content>
+	<content contentuid="8fbe67e2-6e47-4517-9b40-a4c5ca84c786" version="1">Strength of the Grave</content>
+	<content contentuid="69940b10-50c0-4c3e-829d-9e255dcf17f0" version="1">Shadow Sorcery</content>
+	<content contentuid="5878cb02-59dd-4667-9323-27eaf6382c66" version="1">You are a creature of shadow, your magic is a gift or perhaps a curse from the shadowfell itself.</content>
+	<content contentuid="96e91fdf-4e2e-43f4-87c9-484502344686" version="1">Eyes of the Dark: Darkvision</content>
+	<content contentuid="797cbeb7-6fe7-476b-a91a-2226aafa9086" version="1">You have darkvision with a range of [1].</content>
+	<content contentuid="cc79aa7e-81cb-460d-ade4-1e60f4ef2763" version="1">Set the Darkness spell to expend 2 sorcery points instead of a spell slot.</content>
+	<content contentuid="d570720b-bef8-4943-b39a-a1ee8035834a" version="1">Eyes of the Dark: Darkness</content>
+	<content contentuid="e866c469-9a7a-41d0-ae6c-0cf724817d34" version="1">You learn the Darkness spell. In addition, you can cast it by spending 2 Sorcery Points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell.</content>
+	<content contentuid="7422f151-b706-48fc-8d91-1ae6605762df" version="1">Shadow Magic</content>
+	<content contentuid="f597a414-aef0-45cf-a829-b04b07ff0492" version="1">This sorcerer is infused with shadow magic, possibly from some latent connection to the Shadowfell.</content>
+	<content contentuid="23b5356c-0176-4d87-87d7-a26461d03485" version="1">Shadow Walk</content>
+	<content contentuid="28622427-be0e-4571-8e67-0b6ed5233f25" version="1">While in dim light or darkness, teleport to an unoccupied space also in dim light or darkness.</content>
+	<content contentuid="6df457ad-659f-4f4c-a042-2c76b4121e1d" version="1">Necrotic Knowledge</content>
+	<content contentuid="6731f3cc-0a0c-42bb-bb83-edf493e55f5d" version="1">Your ability to cast the plague spell has granted you a level 4 spell slot early. This will however count as your level 7 spell slot unlock.</content>
+	<content contentuid="a27d0ed5-83d1-4d46-9c38-3d6b2c17482a" version="1">Darkness: Enchant Item</content>
+	<content contentuid="2053f0e6-b823-4db4-a467-1cd06f19e65b" version="1">Infuse an item with magical darkness that Heavily Obscures and &lt;LSTag Type="Status" Tooltip="BLINDNESS"&gt;Blinds&lt;/LSTag&gt; creatures within [1] of it.</content>
+	<content contentuid="d3eb92dd-4df8-4fb8-a769-807c3fa41330" version="1">(Eyes of the Dark) Darkness: Enchant Item</content>
+	<content contentuid="9ceb0e98-4847-4bbb-93af-4ce432390d17" version="1">(Eyes of the Dark) Darkness: Cloud</content>
+	<content contentuid="7f3cd782-6ad3-4973-a45f-11e043eadcda" version="1">Shadow Curse: Resistance</content>
+	<content contentuid="e968af22-97b8-4255-800d-16f305b5ba53" version="1">Your connection to the Shadowfell grows and you become resistant to Shadow Curses. You will only be subject to the first level of Shadow Curse damage. Furthermore, when in partial or full shadows, you will receive +1 AC.</content>
+	<content contentuid="9bdf749b-e28c-4ec7-9316-1a59f35f7f87" version="1">Shadow Curse: Immunity</content>
+	<content contentuid="4cb9d491-c9e1-427f-ad0b-56a22987f08d" version="1">Your connection to the Shadowfell strengthens, the shadows welcome you as one of their own. You are now immune to the Shadow Curse. Furthermore, when in partial or full shadows, you will receive +2 AC.</content>
+	<content contentuid="4a1e4eb4-10f4-48ee-bb3e-b951827aa23f" version="1">Endarken</content>
+	<content contentuid="a547bb9f-f22d-44b0-9b85-075e36e225aa" version="1">A simple cantrip for a Shadow Sorcerer. The ability to extinguish light sources within a small area.</content>
+	<content contentuid="1b1feba9-9584-44f1-988f-ec0bf4128f17" version="1">Shadow Armor</content>
+	<content contentuid="aea4c63c-7a02-4529-a21f-e4a7c0d8e228" version="1">When you are in partial or full shadows you gain +1 Armor Class and an advantage on Perception checks.</content>
+	<content contentuid="7be6df3d-f7eb-486a-9d2e-8bc53b3c8f68" version="1">Enhanced Shadow Armor</content>
+	<content contentuid="3905bc90-f5b2-45f9-bb7c-3ec9a7bb0e39" version="1">When you are in partial or full shadows you gain +2 Armor Class and an advantage on Perception and Stealth checks.</content>
+	<content contentuid="7842ffea-161b-4147-ba0e-27515fca0fcd" version="1">Ill Omen</content>
+	<content contentuid="70da350d-34fd-43a2-b473-4c96d8b634cc" version="1">While the Hound of Ill Omen is within [1] of you, you have disadvantage against saving throws from its summoner.</content>
+	<content contentuid="1bca4ea3-1da5-4fe4-8177-0bf64ca1c050" version="1">Ill Omen - Attack of Opportunity</content>
+	<content contentuid="d78f755e-6269-4fd2-9073-21e810914679" version="1">You can automatically attack the enemy that is marked with Ill Omen if they move out of range.</content>
+	<content contentuid="21a67409-45b8-4843-a26d-c4aaef0b9406" version="1">Hunger of Hadar (Shadow Magic)</content>
+	<content contentuid="9374f1b0-921d-4a7a-8a17-27ac399a25b7" version="1">Target the shadows to summon a sphere of void energy. Creatures within this black sphere are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; and take damage at the end of their turn and the start of their turn. </content>
+	<content contentuid="e9fefb53-9664-4432-b282-a32f95428c20" version="1">Creatures starting their turn in the area take [1]. Creatures ending their turn in the area possibly take [2].&lt;br&gt;&lt;br&gt;The area is &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+	<content contentuid="76694f35-bcc2-4422-9174-6be0d9e1fbf6" version="1">Shadow Blade (Shadow Magic)</content>
+	<content contentuid="0fae65c6-fc18-4caf-880c-18687263a001" version="1">The wielder has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against Lightly or Heavily Obscured targets while using this blade. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; use the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="5fef071c-3597-46c1-a9a5-da5eab6c0d85" version="1">Umbral Form</content>
+	<content contentuid="35bb0739-64d2-4751-8c89-cd91251a47fb" version="1">Transform yourself into a shadowy form for 10 rounds. In this form, you have resistance to all damage types except for Radiant and Force. You are unhindered by difficult terrain, can see through darkness and have extra movement. This can be used once per combat and lasts 10 rounds.</content>
+	<content contentuid="63f53213-ebf2-4ca4-875d-d73ec69b605e" version="1">Dismiss Umbral Form</content>
+	<content contentuid="5f64d457-e02a-4566-9799-6899adb0122d" version="1">Dismiss your shadowy form.</content>
+	<content contentuid="ea6d3189-d698-4504-8e1e-5bbbc9e661d9" version="1">You are resistant to all damage types except for Radiant and Force. You are unhindered by difficult terrain and Darkness has no effect on you, you also receive increased movement.</content>
+	<content contentuid="9ae9a520-a286-4a2a-8119-6705eb994895" version="1">This form ends early if you are Incapacitated, you die or you dismiss it.</content>
+	<content contentuid="135d2474-3437-4a66-b393-ef5e8fb07815" version="1">Darkness: Cloud</content>
+	<content contentuid="59eb9925-bcbe-49d2-b5fd-7f74e5f883c7" version="1">Create a cloud of magical darkness that Heavily Obscures and &lt;LSTag Type="Status" Tooltip="BLINDNESS"&gt;Blinds&lt;/LSTag&gt; creatures within.</content>
+	<content contentuid="65d2d684-0c43-4238-b7d8-ddbdc1e74f10" version="1">Wall of Darkness</content>
+	<content contentuid="4a0407fd-68d6-49fc-b316-d2cb014eef68" version="1">(Eyes of the Dark) Wall of Darkness</content>
+	<content contentuid="30f0d26a-eca8-4422-8bb7-e7d7e709c4de" version="1">Create a wall of darkness which blocks line of sight and blinds those who stand within its area of effect.</content>
+</contentList>

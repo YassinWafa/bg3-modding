@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="49" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="ProgressionDescription">
+					<attribute id="Description" type="FixedString" value="EyesOfTheDark_Description" />
+					<attribute id="DisplayName" type="FixedString" value="EyesOfTheDark_DisplayName" />
+					<attribute id="ExactMatch" type="FixedString" value="" />
+					<attribute id="Hidden" type="bool" value="False" />
+					<attribute id="ParamMatch" type="FixedString" value="" />
+					<attribute id="PassivePrototype" type="FixedString" value="EyesOfTheDark" />
+					<attribute id="ProgressionId" type="guid" value="2a382291-7fed-44ba-9002-ccd894b687d8" />
+					<attribute id="ProgressionTableId" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="SelectorId" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="" />
+					<attribute id="UUID" type="guid" value="5ba95429-62d7-4e5a-98cd-e11489580a09" />
+				</node>
+				<node id="ProgressionDescription">
+					<attribute id="Description" type="FixedString" value="EyesOfTheDark_Description" />
+					<attribute id="DisplayName" type="FixedString" value="EyesOfTheDark_DisplayName" />
+					<attribute id="ExactMatch" type="FixedString" value="DarkvisionRangeMin(36)" />
+					<attribute id="Hidden" type="bool" value="True" />
+					<attribute id="ParamMatch" type="FixedString" value="" />
+					<attribute id="PassivePrototype" type="FixedString" value="" />
+					<attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="SelectorId" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="" />
+					<attribute id="UUID" type="guid" value="8b75fda7-a417-4bd5-8db0-2b57c1f2b2f1" />
+				</node>
+				<node id="ProgressionDescription">
+					<attribute id="Description" type="FixedString" value="StrengthOfTheGrave_Description" />
+					<attribute id="DisplayName" type="FixedString" value="StrengthOfTheGrave_DisplayName" />
+					<attribute id="ExactMatch" type="FixedString" value="" />
+					<attribute id="Hidden" type="bool" value="False" />
+					<attribute id="ParamMatch" type="FixedString" value="" />
+					<attribute id="PassivePrototype" type="FixedString" value="StrengthOfTheGrave" />
+					<attribute id="ProgressionId" type="guid" value="2a382291-7fed-44ba-9002-ccd894b687d8" />
+					<attribute id="ProgressionTableId" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="SelectorId" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="" />
+					<attribute id="UUID" type="guid" value="5553dca3-bcba-412c-8f0c-76d63b319f27" />
+				</node>
+				<node id="ProgressionDescription">
+					<attribute id="Description" type="FixedString" value="StrengthOfTheGrave_Description" />
+					<attribute id="DisplayName" type="FixedString" value="StrengthOfTheGrave_DisplayName" />
+					<attribute id="ExactMatch" type="FixedString" value="DownedStatus(STRENGTHOFTHEGRAVE_DOWNED)" />
+					<attribute id="Hidden" type="bool" value="True" />
+					<attribute id="ParamMatch" type="FixedString" value="" />
+					<attribute id="PassivePrototype" type="FixedString" value="" />
+					<attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="SelectorId" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="" />
+					<attribute id="UUID" type="guid" value="3f3077cb-c05f-4e19-b4d7-13953f8e3ce8" />
+				</node>
+				<node id="ProgressionDescription">
+					<attribute id="Description" type="FixedString" value="TempSpellSlot4_Description" />
+					<attribute id="DisplayName" type="FixedString" value="TempSpellSlot4_Name" />
+					<attribute id="ExactMatch" type="FixedString" value="" />
+					<attribute id="Hidden" type="bool" value="False" />
+					<attribute id="ParamMatch" type="FixedString" value="0:SpellSlot" />
+					<attribute id="PassivePrototype" type="FixedString" value="" />
+					<attribute id="ProgressionId" type="guid" value="8f9cc825-a1c6-4565-906e-bcc57f3d1d9c" />
+					<attribute id="ProgressionTableId" type="guid" value="1b981d86-3d9c-4b85-bf03-ace6bda4dfa2" />
+					<attribute id="SelectorId" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="ActionResource" />
+					<attribute id="UUID" type="guid" value="0c41b34d-4aa5-4067-b8d3-0e837dacabb4" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

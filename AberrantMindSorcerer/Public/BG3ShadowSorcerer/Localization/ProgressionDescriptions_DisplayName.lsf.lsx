@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="600" />
+	<region id="TranslatedStringKeys">
+		<node id="TranslatedStringKeys">
+			<children>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="EyesOfTheDark_DisplayName" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Content" type="TranslatedString" handle="977c96d9-c5f6-4b78-a101-381649ace068" version="1" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="StrengthOfTheGrave_DisplayName" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Content" type="TranslatedString" handle="8fbe67e2-6e47-4517-9b40-a4c5ca84c786" version="1" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="TempSpellSlot4_Name" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Content" type="TranslatedString" handle="6df457ad-659f-4f4c-a042-2c76b4121e1d" version="1" />
+					<attribute id="Speaker" type="FixedString" value="" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
